@@ -81,7 +81,7 @@ class actionContentCategoryView extends cmsAction {
             // если набор всего один, например для изменения сортировки по умолчанию,
             // не показываем его на сайте
             if(count($datasets) == 1){
-                $current_dataset = array(); $datasets = false;
+	    	$datasets = false;
             }
         }
 
